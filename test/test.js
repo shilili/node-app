@@ -6,8 +6,8 @@ setTimeout(() => {
 }, 4000)
 
 describe("GET /", function() {
- it("respond with hello world", function(done) {
+ it("respond with hey world", function(done) {
  //navigate to root and check the the response is "hello world"
- request(app).get("/").expect("hello world", done);
+ request(app).get("/").expect("hey world", done);
  });
 });
